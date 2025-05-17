@@ -53,6 +53,7 @@
       name="title"
       id={`title-${task.id}`}
       placeholder="Input title"
+      style="background-color: cyan;"
     />
   </label>
   {#if task.state !== 'TASK_ARCHIVED'}
